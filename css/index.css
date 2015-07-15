@@ -1,0 +1,71 @@
+* {
+	font-family: 'Yu Gothic', Meiryo, sans-serif;
+}
+
+#header {
+	text-align: center;
+	margin: 10px auto;
+}
+
+.logo {
+	width: 100vw;
+	height: 20vw;
+	min-width: 200px;
+	min-height: 100px;
+	max-width: 1000px;
+	max-height: 200px;
+}
+
+#main_area {
+	width: 80%;
+	max-width: 1024px;
+	min-width: 640px;
+	margin: 20px auto;
+}
+
+.box {
+	border: 5px solid darkgray;
+	border-radius: 40px;
+	padding: 40px 20px;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.title_text {
+	display: inline;
+	font-size: 3rem;
+	color: white;
+	text-shadow:
+		-2px -2px 4px darkgray,
+		-2px  2px 4px darkgray,
+		 2px -2px 4px darkgray,
+		 2px  2px 4px darkgray;
+}
+
+.menu {
+	width: 60%;
+	margin: 20px auto;
+}
+
+.menu_title {
+	text-align: center;
+}
+
+.app_icon {
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	vertical-align: middle;
+	border-radius: 16px;
+	box-shadow: 2px 2px 5px 2px lightgray;
+}
+
+.app_text {
+	margin-left: 20px;
+	vertical-align: -0.5ex;
+	font-size: 2rem;
+	text-decoration: none;
+}
